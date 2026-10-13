@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Local reminder database -- may contain personal medicine information
+health_mock.db
+*.db
+
+# Downloaded clinician summaries
+carecheck-summary-*.txt
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
